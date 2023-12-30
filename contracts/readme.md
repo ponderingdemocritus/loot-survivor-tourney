@@ -1,7 +1,3 @@
-# onchain NFT Market
-
-Simple Starknet onchain Market
-
 ### Environment Configuration
 
 ```bash
@@ -48,19 +44,4 @@ export TOURNEY_ADDRESS=0x65ce28a1d99a085a0d5b4d07ceb9b80a9ef0e64a525bf526cff678c
 # goerli
 export GAME_ADDRESS=0x071d07b1217cdcc334739a3f28da75db05d62672ad04b9204ee11b88f2f9f61c
 export TOURNEY_ADDRESS=0x0095a666f6e44b25000efe6ff67f13bf581f8eca732ce6403b6c2ea7a986a724
-```
-
-### Whitelist Collections
-
-```bash
-# Add whitelist
-starkli invoke $MARKET_ADDRESS whitelist_collection $GOLDEN_TOKEN_ADDRESS --account ./account --keystore ./keys
-
-starkli invoke $MARKET_ADDRESS whitelist_collection $BEASTS_ADDRESS --account ./account --keystore ./keys
-```
-
-### test
-
-```bash
-starkli declare /Users/os/Documents/code/biblio/onchain-nft-market/target/dev/marketplace_MyNFT.contract_class.json --account ./account --keystore ./keys
 ```

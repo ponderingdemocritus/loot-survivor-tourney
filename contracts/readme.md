@@ -32,7 +32,7 @@ starkli declare /Users/os/Documents/code/loaf/leetgold/contracts/target/dev/tour
 starkli deploy 0x02f1d67ed2b3ee1712d67ef748c11dcae9e36a40a971cd2b8c42324527954ff0 $GAME_ADDRESS --account ./account --keystore ./keys
 
 # tourney
-0x04551d1e14deb0a9ce1d2a92497a3691cf71aaf2f84d9a850b51199b8a30f1e8
+0x0095a666f6e44b25000efe6ff67f13bf581f8eca732ce6403b6c2ea7a986a724
 
 # then
 export MARKET_ADDRESS=0x07724c0cc6d78237b0c6103eb545c4f8560389145d87e02057c093bc9c275cd0
@@ -47,7 +47,7 @@ export TOURNEY_ADDRESS=0x65ce28a1d99a085a0d5b4d07ceb9b80a9ef0e64a525bf526cff678c
 
 # goerli
 export GAME_ADDRESS=0x071d07b1217cdcc334739a3f28da75db05d62672ad04b9204ee11b88f2f9f61c
-export TOURNEY_ADDRESS=0x04551d1e14deb0a9ce1d2a92497a3691cf71aaf2f84d9a850b51199b8a30f1e8
+export TOURNEY_ADDRESS=0x0095a666f6e44b25000efe6ff67f13bf581f8eca732ce6403b6c2ea7a986a724
 ```
 
 ### Whitelist Collections

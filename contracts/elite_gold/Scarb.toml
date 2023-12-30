@@ -1,0 +1,14 @@
+[package]
+name = "elite_gold"
+version = "0.1.0"
+
+[dependencies]
+starknet.workspace = true
+openzeppelin.workspace = true
+loot_survivor.workspace = true
+
+[[target.starknet-contract]]
+
+[tool.fmt]
+sort-module-level-items = true
+max-line-length = 120

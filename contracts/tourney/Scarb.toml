@@ -1,0 +1,21 @@
+[package]
+name = "tourney"
+version = "0.1.0"
+
+[dependencies]
+starknet.workspace = true
+openzeppelin.workspace = true
+loot_survivor.workspace = true
+snforge_std.workspace = true
+
+[[target.starknet-contract]]
+casm = true
+
+[tool.fmt]
+sort-module-level-items = true
+max-line-length = 120
+
+[[tool.snforge.fork]]
+name = "MAINNET"
+url = "https://starknet-mainnet.g.alchemy.com/v2/G9wJH34O_F038b_k329lcjOd_o38JA3j"
+block_id.number = "400000"
